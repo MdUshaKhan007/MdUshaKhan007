@@ -12,7 +12,8 @@ int x = 100, y = 100, r = 10;
 //int x5 = 780 , y5  = 720 ; 
 //int x6 = 780 , y6  = 360 ; 
 //int x7 = 1140 , y7  = 720 ; 
-//int x8 = 1140 , y8  = 360 ; 
+//int x8 = 1140 , y8  = 360 ;
+int rx6 = 0; int ry6 = 0; int dx6 = 1920; int dy6 = 1080;  
 int rx = 640; int ry = 360; int dx = 630; int dy = 630; 
 int rx1 = 640; int ry1 = 360; int dx1 = 210; int dy1 = 210; 
 int rx2 = 1060; int ry2 = 360; int dx2 = 210; int dy2 = 210; 
@@ -39,6 +40,8 @@ void iDraw()
 	//iLine( x3 , y3 , x4 , y4 );
 	//iLine( x5 , y5 , x6 , y6 ); 
 	//iLine( x7 , y7 , x8 , y8 );
+	iSetColor(178 , 190 , 181 );
+	iFilledRectangle(rx6 , ry6 , dx6 , dy6 );
 	iSetColor(255, 255, 255);
 	iFilledRectangle(rx , ry , dx , dy );
 	iSetColor(173, 216, 230); 
